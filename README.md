@@ -1,7 +1,7 @@
 # Welcome to "Sound Spirit Fest - Choose Your Favorite Musicians" Website
 
 This project is deployed in NETLIFY.
-Live Site Link :(https://github.com/facebook/create-react-app).
+Live Site Link :(https://sound-spirit-fest-react.netlify.app/).
 
 ## Bullet Points
 
