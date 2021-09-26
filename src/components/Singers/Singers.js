@@ -11,11 +11,15 @@ const Singers = (props) => {
     return (
         <div className="singers m-2 bg-white border-4 border-indigo-500 rounded-lg text-center">
             <div>
-                <div className="center">
+                <div className="center m-2">
                     <img src={img} alt="" />
                 </div>
                 <div className="mt-3">
                     <h2 className="p-1 text-blue-700 font-bold text-xl">Name : {name}</h2>
+                    <div>
+                        <span className="mx-10">{famusic}</span>
+                        <span className="mx-10">{faplaycircle}</span>
+                    </div>
                     <h4 className="p-1 text-blue-600 font-semibold text">Birth Date : {birth_date}</h4>
                     <h4 className="p-1 text-blue-500 font-semibold text">Famous As : {famous_as}</h4>
                     <h4 className="p-1 text-blue-600 font-semibold text">Famous Song : {famous_song}</h4>
@@ -26,10 +30,7 @@ const Singers = (props) => {
                     onClick={() => props.addToCart(props.singer)}
                 >{element} Add to List</button>
 
-                <div>
-                    <span className="mx-10">{famusic}</span>
-                    <span className="mx-10">{faplaycircle}</span>
-                </div>
+
 
             </div>
 
